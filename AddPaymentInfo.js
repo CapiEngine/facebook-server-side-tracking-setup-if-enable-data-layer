@@ -142,7 +142,5 @@ window.purchaseTracker.trackPurchase({
   contents: window.item_name,
   item_category: window.capi_cat
 });
- // content_ids: window._dl_items.map(function(it){ return it.item_id; }),
-// value: window._dl_value,
-//  currency: window._dl_currency,
+
 </script>
