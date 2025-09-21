@@ -13,7 +13,7 @@ PurchaseTracker.prototype.trackPurchase = function(eventData) {
         crypto.getRandomValues(array);
         var arrStr = [];
         for (var i = 0; i < array.length; i++) { arrStr.push(array[i]); }
-        return {{deDuplekate}} ;
+        return 'evt_' + arrStr.join('_') + '_' + Date.now();
        // return 'evt_' + arrStr.join('_') + '_' + Date.now();
     }
 
@@ -86,7 +86,7 @@ PurchaseTracker.prototype.trackPurchase = function(eventData) {
     // Merge user data and event data, include event_id as top-level
     var payload = {
         event_id: eventId, // top-level for server recognition
-        event_name: 'Purchase100',
+        event_name: 'ViewContent',
         timestamp: new Date().toISOString(),
         user_data: { 
             user_agent: navigator.userAgent,
@@ -136,15 +136,13 @@ window.purchaseTracker = new PurchaseTracker();
 
 // Demo usage with all parameters
 window.purchaseTracker.trackPurchase({
-  value: window._dl_value,
+  value: window.capi_value,
   currency: window._dl_currency,
-  content_ids: window._dl_items.map(function(it){ return it.item_id; }),
-  productname: window._dl_items.map(function(it){ return it.item_name;  }).join(" "),
-  item_category: window.capi_cat,
-  content_type: 'product',
-  order_id: 'ORDER_DEMO_123',
-  coupon: 'NEWYEAR2025',
-  payment_method: 'Credit Card',
-  customer_email: 'demo@example.com'
+  content_ids: window.capi_id,
+  contents: window.item_name,
+  content_type: window.capi_cat
 });
+ // content_ids: window._dl_items.map(function(it){ return it.item_id; }),
+// value: window._dl_value,
+//  currency: window._dl_currency,
 </script>
