@@ -1,5 +1,7 @@
 # CapiEngine
 # facebook-server-side-tracking-setup-if-enable-data-layer
+<!-- Clickable thumbnail that opens the YouTube video -->
+[![Watch the video](https://img.youtube.com/vi/fPh_Ju9TshM/maxresdefault.jpg)](https://www.youtube.com/watch?v=fPh_Ju9TshM)
 
 # Event Collection API Documentation
 
