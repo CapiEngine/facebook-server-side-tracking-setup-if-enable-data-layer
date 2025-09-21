@@ -140,7 +140,7 @@ window.purchaseTracker.trackPurchase({
   currency: window._dl_currency,
   content_ids: window.capi_id,
   contents: window.capi_item_name,
-  ods_id: window.capi_order_id,
+  order_id: window.capi_order_id,
   content_type: window.capi_cat
 });
  // content_ids: window._dl_items.map(function(it){ return it.item_id; }),
