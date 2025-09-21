@@ -1,6 +1,18 @@
 # CapiEngine
 # facebook-server-side-tracking-setup-if-enable-data-layer
 
+- `<your-domain>` এর জায়গায় তোমার নিজের domain বসাতে হবে।
+- উদাহরণ:
+  - `https://capi9.pimainba.com/api/collect.php`
+  - `https://capi10.yourdomain.com/api/collect.php`
+
+---
+
+## 📌 Events (সব event এর জন্য format একই)
+
+API তে event পাঠানোর জন্য নিচের মতো request পাঠাতে হবে।  
+
+### Example Request
 
 # Data-layer-setup
 
