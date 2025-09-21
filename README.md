@@ -1,12 +1,52 @@
 # CapiEngine
 # facebook-server-side-tracking-setup-if-enable-data-layer
 
-- `<your-domain>` এর জায়গায় তোমার নিজের domain বসাতে হবে।
-- উদাহরণ:
+# Event Collection API Documentation
+
+This document explains how to use the Event Collection API.  
+The process is always the same for all events — only the **domain** needs to be changed.
+
+---
+
+## 🔗 Base URL
+
+- Replace `<your-domain>` with your own domain.  
+- Example:
   - `https://capi9.pimainba.com/api/collect.php`
   - `https://capi10.yourdomain.com/api/collect.php`
 
 ---
+
+## 📌 Events
+All events follow the same request format.  
+You only need to update the `event` name depending on what you want to track.
+
+### Common events include:
+- `page_view`
+- `view_item`
+- `add_to_cart`
+- `purchase`
+- `sign_up`
+- `login`
+- `search`
+
+---
+
+## ⚡ Domain Change
+The only change required is the **domain**.  
+For example:  
+- From `https://capi9.pimainba.com/api/collect.php`  
+- To `https://capi10.yourdomain.com/api/collect.php`  
+
+Everything else remains the same.
+
+---
+
+## ✅ Summary
+- The API endpoint always ends with `/api/collect.php`.
+- Only the domain should be replaced.
+- The event structure remains identical for all events.
+- By changing the `event` parameter, you can track different actions.
 
 ## 📌 Events (সব event এর জন্য format একই)
 
