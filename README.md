@@ -2,14 +2,7 @@
 # facebook-server-side-tracking-setup-if-enable-data-layer
 <!-- Clickable thumbnail that opens the YouTube video -->
 [![Watch the video](https://img.youtube.com/vi/fPh_Ju9TshM/maxresdefault.jpg)](https://www.youtube.com/watch?v=fPh_Ju9TshM)
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/fPh_Ju9TshM"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
+**▶ Click the image to watch on YouTube**
 
 # Event Collection API Documentation
 
