@@ -3,6 +3,14 @@
 <!-- Clickable thumbnail that opens the YouTube video -->
 [![Watch the video](https://img.youtube.com/vi/fPh_Ju9TshM/maxresdefault.jpg)](https://www.youtube.com/watch?v=fPh_Ju9TshM)
 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/fPh_Ju9TshM"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
 # Event Collection API Documentation
 
 This document explains how to use the Event Collection API.  
